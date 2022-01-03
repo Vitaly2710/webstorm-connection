@@ -830,7 +830,11 @@ let arr2 = [44,66,71,25]
 
 arr.splice(1,3, arr2)
 
-console.log(arr)
+console.log(arr);
+
+
+
+console.log('add to github')
 
 
 
