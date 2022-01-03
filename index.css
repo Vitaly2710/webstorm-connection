@@ -1,0 +1,32 @@
+body {
+    background-color: burlywood;
+}
+
+div {
+ /*transform: translate(50px,500px);*/
+    transform: rotate(-15deg);
+    text-align: center;
+    transform: scale(1.5);
+    background-color: red;
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+div:hover {
+    transform: rotate(20deg) perspective(20px);
+}
+
+div {
+    transition: transform 3s linear 2s;
+}
+
+
+@keyframes move {
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(180deg)}
+    100% {transform: rotate(0deg)}
+}
+
+div {
+    animation: move 5s linear;
+}
